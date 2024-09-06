@@ -17,4 +17,4 @@ jobs:
 
     - name: Run Calculator Script
       run: |
-        echo "1" | echo "10" | echo "20" | python Calculator.py
+        echo "1" | echo "10" | echo "20" | python CALCULATOR.py
