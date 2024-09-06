@@ -9,15 +9,12 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-      with:
-        node-version: '20.x'
 
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.x'
-        node-version: '20.x'
 
     - name: Run Calculator Script
       run: |
-        python Calculator.py
+        echo "1" | echo "10" | echo "20" | python Calculator.py
