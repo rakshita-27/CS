@@ -18,4 +18,4 @@ jobs:
 
     - name: Run Calculator Script
       run: |
-        python your_calculator_script.py
+        python Calculator.py
